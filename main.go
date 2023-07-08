@@ -16,12 +16,12 @@ type Movie struct {
 	Title string `json:"title"`
 	Director *Director `json:"director"`
 }
-/*
+
 type Director struct {
 	Firstname  string `json:"firstname"`
 	Lastname string `json:"lastname"` 
 }
-
+/*
 var moives []Movie
 
 func main(){
