@@ -21,7 +21,7 @@ type Director struct {
 	Firstname  string `json:"firstname"`
 	Lastname string `json:"lastname"` 
 }
-/*
+
 var moives []Movie
 
 func main(){
@@ -35,4 +35,4 @@ func main(){
 
 	fmt.Printf("Starting server at port 8000\n")
 	log.Fatal(http.ListenAndServe(":8000", r))
-}*/
+}
